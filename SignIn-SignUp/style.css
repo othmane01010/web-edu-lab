@@ -1,0 +1,165 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#f39c12;
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(14px, 1.5vw, 18px);
+}
+
+
+form{
+  border-radius:15px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+  padding:30px;
+  background-color:#ecf0f1; 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position:absolute;
+  transition:opacity 1s ease;
+}
+
+.signUp{
+  width:80%;
+  max-width:400px;
+  min-width:300px; 
+  height:80%;
+  max-height:600px;
+  min-height:500px;
+}
+.signIn{
+  width:80%;
+  max-width:400px;
+  min-width:300px;
+  height:350px;
+}
+
+form .box{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    gap:2px;
+}
+
+form label{
+    margin:0 5px 1px;
+    font-weight:600;
+    color:#00475a;
+    font-size: clamp(14px, 1.4vw, 16px);
+}
+
+
+form .box2 , .box4{
+    display:flex;
+    align-items:center;
+}
+
+form button{
+  width:100%;
+  padding:10px;
+  background-color:#3498db;
+  color:#ffff;
+  font-weight:900;
+  font-size:clamp(14px,1.9vw, 16px);
+  letter-spacing:1px;
+  cursor: pointer;
+  border:none;
+  margin-bottom:10px;
+  border-radius:8px;
+  transition:all 0.5s ease;
+  
+}
+
+form button:hover{
+  background-color:#2980b6;
+  transform:scale(1.05);
+  box-shadow:0 0 10px rgba(52,152,219,0.6);
+}
+
+form button:active{
+  background-color: #f39c12;
+  transform:scale(1);
+}
+
+form input{
+  padding:10px;
+  border:2px solid #bdc3c7;
+  border-radius:8px;
+  outline:none;
+  font-size:clamp(14px, 1.2vw, 16px);
+  color:#2c3e50;
+  transition:all 0.3s ease;
+  margin-bottom:10px;
+}
+
+form input:focus{
+   border-color:#3498bd;
+   box-shadow:0 0 10px rgba(52,152,219,0.6);
+}
+
+.text{
+  font-size:clamp(0.9rem,1vw,1.1rem);
+  color: #555;
+}
+
+.text span{
+  color:#4b7bec;
+  font-weight:600;
+  margin-left:1px;
+  cursor:pointer;
+  transition:all 0.3s ease;
+}
+
+.text span:hover{
+  color:red;
+  text-decoration:underline;
+
+}
+
+.formTitle{
+  text-align:center;
+  font-size:clamp(1.5rem,7vw,3rem);
+  font-weight:700;
+  color:#375063;
+  letter-spacing:3px;
+}
+
+.formTitle span{
+  text-decoration: underline;
+  color: red;
+}
+
+.hidden{
+    opacity:0;
+    visibility:hidden;
+    pointer-events:none;
+}
+
+
+.visible{
+  opacity:1;
+  visibility:visible;
+  pointer-events:all;
+}
+
+.inputError{
+  border:2px solid crimson;
+  color:red;
+}
+
+.msg{
+  text-align:center;
+  font-size:clamp(0.8rem,0.9vw,1rem);
+  font-weight:100;
+  color:coral;
+}

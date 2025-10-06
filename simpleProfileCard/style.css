@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #25689b, #031e2b, #07527a);
+}
+
+.content{
+  width:80%;
+  max-width:400px;
+  min-width:300px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  gap:20px;
+  border-radius:30px;
+  background-color:rgba(20,40,60, 0.75); 
+  transition:transform 0.3s ease;
+}
+
+
+.content .infos{
+  width:90%;
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+}
+
+.content .infos h1{
+  
+    color:#f1cd99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:clamp(35px,2vw,60px);
+    transition:transform 0.3s ease;
+}
+
+.content .infos p{
+   text-align: center;
+   color:#E0E0E0;
+   font-size:clamp(16px,0.7vw,25px);
+    transition:transform 0.3s ease;
+   
+}
+
+.content .img{
+    border:5px solid #FFB347;
+    width:50%;
+    height:auto;
+    max-width:100%;
+    border-radius:50%;
+    margin:20px;
+    object-fit: cover;
+    transition:transform 0.3s ease;
+}
+.content .links{
+    margin:20px;
+    width:90%;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:10px;  
+    
+}
+.content .links svg{
+    width:35px;
+    height:auto;
+    color: #FFB347;  
+    fill: currentColor;  
+    transition:transform 0.3s ease;
+}
+
+.links a svg:hover{
+    transform:scale(1.5) translateY(-10px);
+    fill:crimson;
+}
+.links a svg:active{
+  transform:scale(1);
+}
+
+.content .img:hover{
+    transform:rotate(20deg);
+    border-color:crimson;
+}
+
+.content .infos h1:hover{
+    transform:translateY(-5px);
+    color: #FFB347;
+}
+
+.content .infos p:hover{
+    color: rgb(240, 205, 161);
+}
+
+.content:hover{
+    transform:scale(1.03) translateY(-40px);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signIn&signUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form name="signUp" id="signUp" class="signUp" method="post">
+      <h1 class="formTitle"><span>Si</span>gn Up</h1>
+      <div class="box box1">
+        <label for="username">Username</label>
+        <input id="username" class="username" type="text" name="username" placeholder="Enter your name" required>
+        <label for="email">Email</label>
+        <input id="email" class="email" type="email" name="email" placeholder="Enter your email" required>
+        <label for="password">Password</label>
+        <input id="password" class="password" type="password" name="password" placeholder="Enter your password" required>
+        <label for="rePassword">Retype Password</label>
+        <input id="rePassword" class="rePassword" type="password" name="repassword" placeholder="Enter password again" required>
+        <div id="msg" class="msg"></div>
+      </div>
+      <div class="box box2">
+        <button type="submit" class="submit" id="submitSignUp">SUBMIT</button>
+        <p class="text">Already have an account?<span id="toSignIn">Sign in</span></p>
+      </div>
+    </form>
+    <form name="signIn" id="signIn" class="signIn" method="post">
+      <h1 class="formTitle"><span>Si</span>gn In</h1>
+      <div class="box box3">
+         <label for="loginEmail">Email</label>
+         <input id="loginEmail" class="loginEmail" type="email" name="loginEmail" placeholder="Enter your email" required>
+         <label for="loginPassword">Password</label>
+         <input id="loginPassword" class="loginPassword" type="password" name="loginPassword" placeholder="Enter your password" required>
+      </div>
+      <div class="box box4">
+         <button type="submit" class="login" id="submitSignIn">LOGIN</button>
+         <p class="text">Don't have an account?<span id="toSignUp">Sign up</span></p>
+      </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
