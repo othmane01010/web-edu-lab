@@ -13,6 +13,7 @@ using **HTML, CSS, and JavaScript** step by step.
 | `Counter` | An interactive counter to increase or decrease numbers. |
 | `MorseCode` | A tool that converts text into Morse code. |
 | `SignIn-SignUp` | A simple sign-in and sign-up interface. |
+| `FormValidator` | A sign-up form with real-time input validation, password strength check, and instant feedback using validator.js and zxcvbn.js. |
 
 ---
 
