@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormValidator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.9.0/validator.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.4.2/zxcvbn.js"></script>
+</head>
+<body>
+
+  <form name="signUp" id="signUp" class="signUp" method="post">
+      <h1 class="formTitle"><span>Fo</span>rm</h1>
+      <div class="box">
+         <label for="username">Username</label>
+         <input id="username" class="username" type="text" name="username" placeholder="Enter your name" required>
+         <div class="msgU msg" id="msgU"></div>
+
+         <label for="tel">Phone</label>
+         <input id="tel" class="tel" type="tel" name="tel" placeholder="Enter your phone number" required>
+         <div class="msgT msg" id="msgT"></div>
+
+         <label for="email">Email</label>
+         <input id="email" class="email" type="email" name="email" placeholder="Enter your email" required>
+         <div class="msgE msg" id="msgE"></div>
+        
+         <label for="password">Password</label>
+         <input id="password" class="password" type="password" name="password" placeholder="Enter your password" required>
+         <div class="msgP" id="msgP"></div>
+       
+         <label for="rePassword">Retype Password</label>
+         <input id="rePassword" class="rePassword" type="password" name="repassword" placeholder="Enter password again" required>
+         <div id="msgR" class="msgR msg"></div>
+     </div>
+     <button type="submit" class="submit" id="submit">SUBMIT</button>
+      <div class="msgB msg" id="msgB"></div>
+ </form>
+ <script src="main.js"></script>
+</body>
+</html>
