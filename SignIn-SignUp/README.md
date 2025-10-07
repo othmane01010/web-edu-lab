@@ -11,10 +11,10 @@ This is a simple **Sign In / Sign Up form** project built with **HTML, CSS, and 
 ## Screenshots
 
 **Sign Up Form**
-![Sign Up](images/img1.jpeg)
+![Sign Up](imges/img1.jpeg)
 
 **Sign In Form**
-![Sign In](images/img2.jpeg)
+![Sign In](imges/img2.jpeg)
 
 ## How to Use
 1. Clone or download the project.
