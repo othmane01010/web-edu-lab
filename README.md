@@ -18,7 +18,7 @@ Each project here is a practical application of what I’m learning, and not a c
 | `MorseCode` | A tool that converts text into Morse code | [Preview](https://othmane01010.github.io/web-edu-lab/MorseCode/) |
 | `SignIn-SignUp` | A simple sign-in and sign-up interface | [Preview](https://othmane01010.github.io/web-edu-lab/SignIn-SignUp/) |
 | `FormValidator` | A sign-up form with real-time input validation and password strength check | [Preview](https://othmane01010.github.io/web-edu-lab/FormValidator/) |
-| `SimpleCalculator` | A basic web calculator supporting +, -, *, /, and % operations | [Preview](https://othmane01010.github.io/web-edu-lab/Calculator/) |
+| `Calculator` | A basic web calculator supporting +, -, *, /, and % operations | [Preview](https://othmane01010.github.io/web-edu-lab/Calculator/) |
 > New projects will be added here as I continue learning.
 
 ---
