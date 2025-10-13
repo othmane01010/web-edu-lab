@@ -49,7 +49,7 @@ The project contains the following files:
 ---
 
 ## App Preview
-![App Screenshot](img.jpge)
+![App Screenshot](img.jpeg)
 
 ---
 
