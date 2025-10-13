@@ -19,7 +19,10 @@ Each project here is a practical application of what I’m learning, and not a c
 | `SignIn-SignUp` | A simple sign-in and sign-up interface | [Preview](https://othmane01010.github.io/web-edu-lab/SignIn-SignUp/) |
 | `FormValidator` | A sign-up form with real-time input validation and password strength check | [Preview](https://othmane01010.github.io/web-edu-lab/FormValidator/) |
 | `Calculator` | A basic web calculator supporting +, -, *, /, and % operations | [Preview](https://othmane01010.github.io/web-edu-lab/Calculator/) |
+| `ToDoList` | A clean and simple to-do list app with localStorage support | [Preview](https://othmane01010.github.io/web-edu-lab/ToDoList/) |
+
 > New projects will be added here as I continue learning.
+
 
 ---
 
